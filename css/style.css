@@ -19,10 +19,16 @@ body{
 
 .background-blurr{
     background-color: rgba(0, 0, 0, 0.16);
-    background-attachment: fixed;
     margin: 0px;
     padding: 0px;
     height: 140vh;
+}
+
+.background-menu{
+    background-color: rgba(0, 0, 0, 0.16);
+    margin: 0px;
+    padding: 0px;
+    height: 200vh;
 }
 
 .nav-blurr{
@@ -77,6 +83,10 @@ li a:hover:after{
     font-family: Courier;
     text-transform: uppercase;
     font-size: 1.2em;
+}
+
+.f-times{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .ff{
