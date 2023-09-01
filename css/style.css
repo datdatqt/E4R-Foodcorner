@@ -13,8 +13,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 
 .background-blurr{
@@ -28,7 +27,7 @@ body{
     background-color: rgba(0, 0, 0, 0.16);
     margin: 0px;
     padding: 0px;
-    height: 200vh;
+    height: 270vh;
 }
 
 .nav-blurr{
@@ -59,7 +58,7 @@ li a:after{
     transition: 0.3s;
 }
 li a:hover{
-    color: #E7BD74;
+    color: #e7bd7463;
 }
 li a:hover:after{
     width: 90%;
@@ -91,4 +90,17 @@ li a:hover:after{
 
 .ff{
     font-family: "Times New Roman";
+}
+
+.f-button-size{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.f-button-size:hover{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 0.8em;
 }
