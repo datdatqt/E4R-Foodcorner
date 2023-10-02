@@ -17,10 +17,10 @@ body{
 }
 
 .background-blurr{
-    background-color: rgba(0, 0, 0, 0.16);
     margin: 0px;
     padding: 0px;
-    height: 140vh;
+    height: 100vh;
+    background-color:rgba(0,0,0,.2);
 }
 
 .background-menu{
@@ -48,7 +48,7 @@ li a{
     padding: 0 10px;
 }
 li a:after{
-    content: "";
+    content:"";
     position: absolute;
     background-color: #E7BD74;
     height: 3px;
