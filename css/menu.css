@@ -219,3 +219,9 @@ li a:hover:after{
         width: 70%;
     }
 }
+@media(max-width: 590px){
+    .menu2{
+        font-size: 12px;
+        color: #000000;
+    }
+}
