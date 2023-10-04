@@ -59,7 +59,7 @@ li a:hover:after{
     color: #A61008;
 }
 
-.active:before{
+/* .active:before{
     content: "";
     position: absolute;
     background-color: #A61008;
@@ -67,7 +67,7 @@ li a:hover:after{
     width: 90%;
     left: 0;
     bottom: -5px;
-}
+} */
 
 .bg-blurr{
     background-color: rgba(0, 0, 0, 0.16);
@@ -119,9 +119,8 @@ li a:hover:after{
 .content .list li:hover::after{
     width: 100%;
 }
-.content .list li:first-child{
-    color: #952617;
-    
+.firstC:first-child{
+    color: #952617;   
 }
 
 .text-font{
