@@ -222,6 +222,7 @@ li a:hover:after{
     .content .list li{
         /* width: 49%; */
         font-size: .9rem;
+        transition: none;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
