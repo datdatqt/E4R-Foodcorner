@@ -1,249 +1,39 @@
-/* CSS for All */
-@import url("https://fonts.googleapis.com/css?family=Modak");
-body {
-    background-color: black;
-}
-.text {
-    height: 100px;
-    display: inline-block;
-    font-size: 100px;
-    line-height: 86%;
-    font-family: Modak;
-    padding-left: 7px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-top: 0px;
-    text-shadow: 7px 7px 0px #0000002e;
-}
-.heading {
-    margin-top: 30px;
-}
-.text-1 {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200px' height='200px' viewBox='0 0 400 400'%3e%3cdefs%3e%3cfilter id='filter' width='400px' height='400px' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3e%3cfeFlood flood-color='%23f5576c' flood-opacity='1' x='0' y='0' width='250px' height='250px' result='flood3'%3e%3c/feFlood%3e%3cfeFlood flood-color='%23f093fb' flood-opacity='1' x='150px' y='150px' width='250px' height='250px' result='flood4'%3e%3c/feFlood%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood3' edgeMode='none' result='blur1'%3e%3c/feGaussianBlur%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood4' edgeMode='none' result='blur2'%3e%3c/feGaussianBlur%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur2' in2='SourceGraphic' result='blend5'%3e%3c/feBlend%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur1' in2='blend5' result='blend6'%3e%3c/feBlend%3e%3c/filter%3e%3c/defs%3e%3crect width='400' height='400' x='0' y='0' fill='%23fee140' filter='url(%23filter)'%3e%3c/rect%3e%3c/svg%3e");
+.menu{
+    width: 70%;
+    background-color: rgba(222, 184, 135, 0.932);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    /* border-radius: 15px; */
 }
 
-.text-2 {
-    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200px' height='200px' viewBox='0 0 400 400'%3e%3cdefs%3e%3cfilter id='filter' width='400px' height='400px' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3e%3cfeFlood flood-color='%238fd3f4' flood-opacity='1' x='0' y='0' width='250px' height='250px' result='flood3'%3e%3c/feFlood%3e%3cfeFlood flood-color='%2396e6a1' flood-opacity='1' x='150px' y='150px' width='250px' height='250px' result='flood4'%3e%3c/feFlood%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood3' edgeMode='none' result='blur1'%3e%3c/feGaussianBlur%3e%3cfeGaussianBlur stdDeviation='50 50' x='0%25' y='0%25' width='100%25' height='100%25' in='flood4' edgeMode='none' result='blur2'%3e%3c/feGaussianBlur%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur2' in2='SourceGraphic' result='blend5'%3e%3c/feBlend%3e%3cfeBlend mode='normal' x='0%25' y='0%25' width='100%25' height='100%25' in='blur1' in2='blend5' result='blend6'%3e%3c/feBlend%3e%3c/filter%3e%3c/defs%3e%3crect width='400' height='400' x='0' y='0' fill='%23d4fc79' filter='url(%23filter)'%3e%3c/rect%3e%3c/svg%3e");
-}
-
-*{
-    margin: 0 ;
-    padding: 0 ;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-}
-.container{
-    width: 80%;
-    margin: 0 auto;
-    padding: 1%;
-}
-.img-responsive{
-    width: 100%;
-}
-.img-curve{
-    border-radius: 15px;
-}
-
-.text-right{
-    text-align: right;
-}
-.text-center{
+h2, p {
     text-align: center;
 }
-.text-left{
+
+.item p{
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.flavor{
+    width: 80%;
     text-align: left;
 }
-.text-white{
-    color: white;
+.price {
+    width: 18%;
+    text-align: right;
 }
 
-.clearfix{
-    clear: both;
-    float: none;
+hr {
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
 }
 
-a{
-    color: #ff6b81;
-    text-decoration: none;
-}
-a:hover{
-    color: #ff4757;
-}
-
-.float-container{
-    position: relative;
-}
-.float-text{
-    position: absolute;
-    bottom: 50px;
-    left: 40%;
-}
-fieldset{
-    border: 1px solid white;
-    margin: 5%;
-    padding: 3%;
-    border-radius: 5px;
-}
-.abproject p{
-    color: rgb(255, 255, 255);
-    font-family: "cosmic sans-serif";
-    font-size: 20px;
-    margin-right: 150px;
-    margin-left: 150px;
-    padding-bottom: 50px;
-}
-.Timings {
-    margin-left: 300px;
-    margin-right: 300px;
-    border-left: solid white;
-    border-bottom: solid white;
-    border-right: solid white;
-    border-top: solid white;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-.Timings h2{
-    color:white;
-    font-family: "cosmic sans-serif";
-}
-.Timings p{
-    color: white;
-    font-family: "cosmic sans-serif";
-}
-.map{
-    padding-top: 30px;
-    padding-bottom: 200px;
-}
-
-/* CSS for Food Menu */
-.food-menu-box{
-    width: 43%;
-    margin: 3%;
-    padding: 2%;
-    float: left;
-    background-color: rgba(255, 255, 255, 0.571);
-    border-radius: 15px;
-}
-
-
-.food-price{
-    font-size: 1.2rem;
-    margin: 2% 0;
-}
-.food-detail{
-    font-size: 1rem;
-    color: rgb(0, 0, 0);
-}
-
-
-/* CSS for Social */
-.social ul{
-    list-style-type: none;
-}
-.social ul li{
-    display: inline;
-    padding: 1%;
-}
-
-/* for Order Section */
-.order{
-    width: 50%;
-    margin: 0 auto;
-}
-.input-responsive{
-    width: 96%;
-    padding: 1%;
-    margin-bottom: 3%;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-}
-.order-label{
-    margin-bottom: 1%; 
-    font-weight: bold;
-}
-
-.feedback{
-    text-align: center;
-    color: white;
-    padding: 50px 0 500px 0;
-}
-
-
-
-/* CSS for Mobile Size or Smaller Screen */
-
-@media only screen and (max-width:990px){
-    .logo{
-        width: 30%;
-        float: none;
-        margin: 1% auto;
-    }
-    .feedback{
-        font-size: 120%;
-
-    }
-    .text{
-        font-size: 300%;
-    }
-    .abproject p{
-        font-size: 20px;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    .Timings {
-        margin-left: 15%;
-        margin-right: 15%;
-        border-left: solid white;
-        border-bottom: solid white;
-        border-right: solid white;
-        border-top: solid white;
-        border-radius: 10px;
-        padding-top: 20px;
-        padding-bottom: 30px;
-    }
-    .menu ul{
-        text-align: center;
-    }
-
-    .food-search input[type="search"]{
-        width: 90%;
-        padding: 2%;
-        margin-bottom: 3%;
-    }
-
-    .btn{
-        width: 91%;
-        padding: 2%;
-    }
-
-    .food-search{
-        padding: 3% 0 0 0;
-    }
-
-    .categories{
-        padding: 20% 0;
-    }
-    h2{
-        margin-bottom: 10%;
-    }
-    .box-3{
-        width: 100%;
-        margin: 4% auto;
-    }
-
-    .food-menu{
-        padding: 5% 0;
-    }
-
-    .food-menu-box{
-        width: 90%;
-        padding: 5%;
-        margin-bottom: 5%;
-    }
-    .social{
-        padding: 5% 0;
-    }
+ .title h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
